@@ -5,4 +5,8 @@ class DockerUi < Sinatra::Base
   get "/" do
     erb :welcome
   end
+
+  get "/containers" do
+    erb :welcome
+  end
 end
